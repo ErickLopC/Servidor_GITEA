@@ -370,13 +370,18 @@ Reiniciamos gitea
 systemctl restart gitea
 
 ```
-```
--
-```
 
+Verificamos que este corriendo GITEA 
 
 ```
--
+systemctl status gitea
+
+```
+
+## AHORA IR IR AL NAVEGAOR 
+
+```
+http://IP-0-Dominio-gitea
 ```
 ```
 -
