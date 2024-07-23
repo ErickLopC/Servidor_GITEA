@@ -195,22 +195,24 @@ gitea --version
 ```
 
 
+Creacion de los directorios para ponerla en marcha 
 ```
-mkdir -p /etc/gitea /var/lib/gitea/{custum, data,indexers,public,log}
+mkdir -p /etc/gitea /var/lib/gitea/{custom, data,indexers,public,log}
 
 ```
+cambiamos los atributos al grupu git gruopo git 
 
 ```
 chown git:git /var/lib/gitea/{data,indexers,log}
 ```
-
-
-```
-chmod 750 /var/lib
-```
+Cambiamos los permisos a lao sirectorios
 
 ```
--
+chmod 750 /var/lib/gitea/{data,indexers,log}
+```
+
+```
+chown root:git /etc/gitea
 ```
 
 
