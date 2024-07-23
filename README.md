@@ -329,6 +329,37 @@ server{
  }
 }
 ```
+Verificamos que lo que se escribio correctamente
+
+```
+nginx -t
+```
+
+```
+systemctl enable nginx
+```
+```
+systemctl restart nginx
+```
+```
+systemctl status nginx
+```
+
+nano /etc/gitea/app.ini
+
+```
+DOMAIN =  gitea.drivemeca.com
+```
+
+
+```
+-
+```
+```
+-
+```
+
+
 ```
 -
 ```
