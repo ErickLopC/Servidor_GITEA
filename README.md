@@ -258,8 +258,29 @@ nano /etc/systemd/system/gitea.service
 
 
 ```
--
+[Unit]
+Description=Gitea (Git with a cup of tea)
+After=syslog.target
+After=network.target
+After=mysql.service
+
+[Service]
+LimitMEMLOCK=infinity
+LimitNOFILE=65535
+RestartSec=2s
+Type=simple
+User=git
+Group=git
+WorkingDirectory=/var/lib/gitea/
+ExecStart=/usr/local/bin/gitea web -c /etc/gitea/app.ini
+Restart=always
+Environment=USER=git HOME=/opt/git GITEA_WORK_DIR=/var/lib/gitea
+
+[Install]
+WantedBy=multi-user.target
 ```
+
+
 ```
 -
 ```
