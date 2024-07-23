@@ -282,6 +282,35 @@ WantedBy=multi-user.target
 
 
 ```
+systemctl daemon-reload
+```
+
+```
+systemctl enable gitea
+```
+
+```
+systemctl start gitea
+```
+
+```
+systemctl status gitea
+```
+
+```
+ss -antpl | grep 3000
+```
+
+```
+nano /etc/nginx/conf.d/gitea.conf
+```
+```
+-
+```
+```
+-
+```
+```
 -
 ```
 
