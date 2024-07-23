@@ -180,6 +180,26 @@ wget -O gitea https://dl.gitea.io/gitea/1.15.4/gitea-1.15.4-linux-arm-6
 
 
 ```
+mv git* /usr/local/bin/gitea
+```
+
+
+```
+chmod +x /usr/local/bin/gitea
+```
+
+
+
+```
+gitea --version
+```
+
+
+```
+-
+```
+
+```
 -
 ```
 
@@ -188,7 +208,14 @@ wget -O gitea https://dl.gitea.io/gitea/1.15.4/gitea-1.15.4-linux-arm-6
 -
 ```
 
+```
+-
+```
 
+
+```
+-
+```
 ```
 -
 ```
