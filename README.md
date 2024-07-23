@@ -297,9 +297,15 @@ systemctl start gitea
 systemctl status gitea
 ```
 
+Verificacion que el puerto este activo 
+
 ```
 ss -antpl | grep 3000
 ```
+
+Nos aparecera algo como 
+
+LISTEN 0      4096               *:3000            *:*    users:(("gitea",pid=18043,fd=6)) 
 
 ```
 nano /etc/nginx/conf.d/gitea.conf
