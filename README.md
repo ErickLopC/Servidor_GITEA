@@ -232,6 +232,24 @@ ls -la /var/lib/gitea/
 
 ```
 
+nos aparecera algo como esto 
+
+drwxr-xr-x  8 root root 4096 Jul 23 22:49 .
+
+drwxr-xr-x 33 root root 4096 Jul 23 22:45 ..
+
+drwxr-xr-x  2 root root 4096 Jul 23 22:45 {custom,
+
+drwxr-xr-x  2 root root 4096 Jul 23 22:49 custom
+
+drwxr-x---  2 git  git  4096 Jul 23 22:49 data
+
+drwxr-x---  2 git  git  4096 Jul 23 22:49 indexers
+
+drwxr-x---  2 git  git  4096 Jul 23 22:49 log
+
+drwxr-xr-x  2 root root 4096 Jul 23 22:49 public
+
 Crear ficheros para manejar gitea
 ```
 nano /etc/systemd/system/gitea.service
