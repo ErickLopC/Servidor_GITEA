@@ -196,16 +196,17 @@ gitea --version
 
 
 ```
--
+mkdir -p /etc/gitea /var/lib/gitea/{custum, data,indexers,public,log}
+
 ```
 
 ```
--
+chown git:git /var/lib/gitea/{data,indexers,log}
 ```
 
 
 ```
--
+chmod 750 /var/lib
 ```
 
 ```
