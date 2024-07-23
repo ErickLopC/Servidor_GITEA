@@ -89,8 +89,15 @@ docker-compose up -d
 -
 ```
 
+# new instalation
+modosuper usiruio
 ```
--
+su -l
+```
+Instalar base de datos
+```
+apt install mariadb-server nginx git
+
 ```
 
 ```
