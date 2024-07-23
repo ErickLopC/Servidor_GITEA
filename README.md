@@ -199,7 +199,14 @@ Creacion de los directorios para ponerla en marcha
 ```
 mkdir -p /etc/gitea /var/lib/gitea/{custom, data,indexers,public,log}
 
+or
+
+mkdir -p /etc/gitea /var/lib/gitea/custom /var/lib/gitea/data /var/lib/gitea/indexers /var/lib/gitea/public /var/lib/gitea/log
+
+
 ```
+
+
 cambiamos los atributos al grupu git gruopo git 
 
 ```
