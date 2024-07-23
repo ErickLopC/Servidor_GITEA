@@ -143,6 +143,37 @@ Creamos cuenta de usuario con previlegios de gitea
 GRANT ALL PRIVILEGES ON gitea.* TO 'gitea'@'localhost' IDENTIFIED BY 'ERICK_power_2000@';
 ```
 
+Guardamos los cambios 
+
+```
+FLUSH PRIVILEGES;
+```
+Salimos con 
+
+```
+exit;
+
+```
+
+```
+-
+```
+
+
+```
+-
+```
+
+
+```
+-
+```
+
+
+```
+-
+```
+
 
 ```
 -
