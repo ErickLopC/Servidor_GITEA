@@ -340,7 +340,7 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 
-
+Habuliytar nginx cada vez que se reinicie 
 ```
 systemctl enable nginx
 ```
@@ -350,8 +350,10 @@ systemctl restart nginx
 ```
 systemctl status nginx
 ```
-
+Editar
+```
 nano /etc/gitea/app.ini
+```
 
 ```
 DOMAIN =  gitea.drivemeca.com
