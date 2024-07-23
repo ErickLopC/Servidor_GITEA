@@ -46,20 +46,34 @@ sudo usermod -a -G docker ELC
 ```
 -
 ```
-
-
-```
--
-```
-
+# cuando ya se tenga instaldo DOCKER realizamosd los siguientes pasos
 
 ```
--
-```
-
+docker ps
 
 ```
--
+
+```
+nano docker-compose.yml
+
+```
+
+Colocar lo siguiente 
+```
+services:
+  gitea:
+    image: gitea/gitea:latest
+    container_name: gitea
+    restart: always
+    ports:
+      - "3000:3000"
+      - "222:22"
+    volumes:
+      - /home/ELC3NAS/gitea:/data
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+
 ```
 
 
