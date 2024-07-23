@@ -123,9 +123,12 @@ Al pedir el modo socket precionar **N**
 ```
 -
 ```
+reconseña 
 
+ERICKmendoza2000
 ```
--
+mysql -u root -p
+
 ```
 
 ```
