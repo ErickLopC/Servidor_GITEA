@@ -307,11 +307,27 @@ Nos aparecera algo como
 
 LISTEN 0      4096               *:3000            *:*    users:(("gitea",pid=18043,fd=6)) 
 
+Esta a la escuha de ese puerto 
+
+
+Ahora configurar el servidor wed  poara que nos sirva por el puerto 80
+
 ```
 nano /etc/nginx/conf.d/gitea.conf
+
 ```
+colocar 
 ```
--
+server{
+  listen 80;
+server_name gitea.drivemeca.com;
+acces_log /var/log/nginx/gitea_access.log;
+error_log /var/log/nginx/gitea_error.log;
+
+location / {
+    proxy_pass http://localhost:3000;
+}
+}
 ```
 ```
 -
