@@ -137,9 +137,10 @@ Crramos la base de datos para gitea
 CREATE DATABASE gitea;
 ```
 
+Creamos cuenta de usuario con previlegios de gitea
 
 ```
--
+GRANT ALL PRIVILEGES ON gitea.* TO 'gitea'@'localhost' IDENTIFIED BY 'contraseña';
 ```
 
 
