@@ -321,7 +321,7 @@ colocar
 server{
   listen 80;
   server_name gitea.drivemeca.com;
-  acces_log /var/log/nginx/gitea_access.log;
+  access_log /var/log/nginx/gitea_access.log;
   error_log /var/log/nginx/gitea_error.log;
 
  location / {
