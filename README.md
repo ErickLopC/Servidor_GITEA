@@ -222,6 +222,22 @@ chmod 750 /var/lib/gitea/{data,indexers,log}
 chown root:git /etc/gitea
 ```
 
+```
+chmod 770 /etc/gitea
+
+```
+
+```
+ls -la /var/lib/gitea/
+
+```
+
+Crear ficheros para manejar gitea
+```
+nano /etc/systemd/system/gitea/gitea.service
+
+```
+
 
 ```
 -
