@@ -89,20 +89,65 @@ docker-compose up -d
 -
 ```
 
-# new instalation
-modosuper usiruio
+# New instalation
+CUENTA ROOT 
 ```
 su -l
+
+or
+
+sudo su
 ```
 Instalar base de datos
 ```
 apt install mariadb-server nginx git
 
 ```
+activar servicio de MariaDB 
+
+ejecutar el servicio de bria db al ajecer el boot el servidor
+```
+systemctl enable mariadb
+
+```
+
+```
+mysql_secure_installation
+```
+
+configuracion 
+
+Al pedir contraseña precionar enter 
+
+Al pedir el modo socket precionar **N**
+```
+-
+```
 
 ```
 -
 ```
+
+```
+-
+```
+
+
+```
+-
+```
+
+
+```
+-
+```
+
+
+```
+-
+```
+
+
 
 
 
