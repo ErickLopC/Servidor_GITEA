@@ -362,10 +362,13 @@ DOMAIN         = gitea.drivemeca.com
 ROOT_URL       = http://gitea.drivemeca.com/
 
 ```
+Aguardamos cambios y salimos 
 
+Reiniciamos gitea 
 
 ```
--
+systemctl restart gitea
+
 ```
 ```
 -
