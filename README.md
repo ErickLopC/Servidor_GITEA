@@ -32,7 +32,7 @@ echo "deb [arch=armhf] https://download.docker.com/linux/debian \
 $(lsb_release -cs) stable " | \
 
 ```
-sudo usermod -a -G docker ELC
+sudo usermod -a -G docker ELC 
 ```
 
 
