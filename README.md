@@ -355,8 +355,12 @@ Editar
 nano /etc/gitea/app.ini
 ```
 
+Agregamos
+
 ```
-DOMAIN =  gitea.drivemeca.com
+DOMAIN         = gitea.drivemeca.com
+ROOT_URL       = http://gitea.drivemeca.com/
+
 ```
 
 
