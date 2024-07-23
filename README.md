@@ -174,7 +174,8 @@ ls -la /opt/
 
 
 ```
--
+wget -O gitea https://dl.gitea.io/gitea/1.15.4/gitea-1.15.4-linux-arm-6
+
 ```
 
 
