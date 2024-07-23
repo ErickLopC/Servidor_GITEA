@@ -234,7 +234,7 @@ ls -la /var/lib/gitea/
 
 Crear ficheros para manejar gitea
 ```
-nano /etc/systemd/system/gitea/gitea.service
+nano /etc/systemd/system/gitea.service
 
 ```
 
