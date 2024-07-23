@@ -130,9 +130,11 @@ ERICKmendoza2000
 mysql -u root -p
 
 ```
+Entramos al servidor mariaDB
 
+Crramos la base de datos para gitea
 ```
--
+CREATE DATABASE gitea;
 ```
 
 
