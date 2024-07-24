@@ -383,6 +383,54 @@ systemctl status gitea
 ```
 http://IP-0-Dominio-gitea
 ```
+PARA LA CONFIGURACION DE GITREA SE TIENE
+```
+Database Type **MySQL**
+
+Host **127.0.0.1:3306**
+
+Username   **gitea**
+
+Password **Contraseña de la base D datos**
+
+Database Name  **gitea**
+
+
+
+
+Repository Root Path  **/var/lib/gitea/data/gitea-repositories**
+
+Git LFS Root Path **/var/lib/gitea/data/lfs**
+
+Run As Username  **git**
+
+SSH Server Domain  **localhost**
+
+SSH Server Port  **22**
+
+Gitea HTTP Listen Port **3000**
+
+Gitea Base URL **http://192.168.0.215:3000/**   <----------- CHANGE
+
+Log Path  **/var/lib/gitea/log**
+
+
+Optional Settings  **Administrator Account Settings**
+
+
+EJEMPLO
+
+Administrator Username **DIMAF_**
+
+Password  **Elc2000@1230ABZ**
+
+Confirm Password **ec667709@gmail.com**
+
+```
+
+```
+-
+```
 ```
 -
 ```
@@ -390,8 +438,9 @@ http://IP-0-Dominio-gitea
 
 
 
-
-
+```
+-
+```
 
 
 
