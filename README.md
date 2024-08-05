@@ -2,6 +2,20 @@
 
 ## [REDES COMUNICACION](https://github.com/ErickLopC/COMUN_REDES)
 
+
+# CONTENIDO
+1. [](#)
+2. [](#)
+3. [](#)
+4. [](#)
+5. [](#)
+6. [](#)
+7. [Solucion Problemas](#Sol problem)
+8. [](#)
+9. [](#)
+10. [](#)
+
+
 vER LAS IMAGENES QUE TENEMOS EN DOCKER
 ```
 docker ps
@@ -427,7 +441,17 @@ Password  **Elc2000@1230ABZ**
 Confirm Password **ec667709@gmail.com**
 
 ```
+--------------
 
+----
+
+
+---
+
+
+# Sol problem
+
+CaMmbios de ip de servidor
 ```
 -
 ```
