@@ -6,10 +6,10 @@
 # CONTENIDO
 1. [Configuracion inicial](#Configuracion-inicial)
 2. [Dependencias](#Dependencias)
-3. [](#)
-4. [](#)
-5. [](#)
-6. [](#)
+3. [Base de datos](#Base-de-datos)
+4. [Instalacion](#Instalacion)
+5. [Funcionamiento](#Funcionamiento)
+6. [References](#References)
 7. [Solucion Problemas](#Sol-problem)
 8. [](#)
 9. [](#)
@@ -23,7 +23,7 @@ docker ps
 
 ```
 
-Dependencias 
+# Dependencias 
 ```
 sudo apt install curl
 sudo apt -y install apt-transport-https
@@ -105,7 +105,7 @@ docker-compose up -d
 -
 ```
 
-# New instalation
+# Base de datos
 CUENTA ROOT 
 ```
 su -l
@@ -178,6 +178,7 @@ exit;
 
 -
 
+# Instalacion
 
 ```
 adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --disabled-password --home /opt/git git
@@ -394,7 +395,7 @@ systemctl status gitea
 
 ```
 
-## AHORA IR IR AL NAVEGAOR 
+# Funcionamiento
 
 ```
 http://IP-0-Dominio-gitea
@@ -470,7 +471,7 @@ CaMmbios de ip de servidor
 
 
 
-references
+ # References
 
 https://www.youtube.com/watch?v=ti76T4RNprg
 
