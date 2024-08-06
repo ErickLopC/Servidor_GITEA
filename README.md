@@ -11,7 +11,7 @@
 5. [Funcionamiento](#Funcionamiento)
 6. [References](#References)
 7. [Solucion Problemas](#Sol-problem)
-8. [Desinstalar GITEA](#https://github.com/ErickLopC/Desins-Gitea)
+8. [Desinstalar GITEA](https://github.com/ErickLopC/Desins-Gitea)
 9. [](#)
 10. [](#)
 
