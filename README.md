@@ -187,28 +187,47 @@ adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --disab
 Verificar el direcciorio creado de git con duseñpo git y grupo git 
 ```
 ls -la /opt/
+
 ```
 
+---
+
+---
+
+---
 
 ```
 wget -O gitea https://dl.gitea.io/gitea/1.15.4/gitea-1.15.4-linux-arm-6
 
 ```
 
+```
+wget -O gitea  https://dl.gitea.com/gitea/1.22.0/gitea-1.22.0-linux-arm-6
+
+```
+
+---
+
+---
+
+---
 
 ```
 mv git* /usr/local/bin/gitea
+
 ```
 
 
 ```
 chmod +x /usr/local/bin/gitea
+
 ```
 
 
 
 ```
 gitea --version
+
 ```
 
 
@@ -363,9 +382,11 @@ systemctl enable nginx
 ```
 ```
 systemctl restart nginx
+
 ```
 ```
 systemctl status nginx
+
 ```
 Editar
 ```
