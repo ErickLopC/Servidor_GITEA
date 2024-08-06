@@ -4,24 +4,26 @@
 
 
 # CONTENIDO
-1. [](#)
-2. [](#)
+1. [Configuracion inicial](#Configuracion-inicial)
+2. [Dependencias](#Dependencias)
 3. [](#)
 4. [](#)
 5. [](#)
 6. [](#)
-7. [Solucion Problemas](#Sol problem)
+7. [Solucion Problemas](#Sol-problem)
 8. [](#)
 9. [](#)
 10. [](#)
 
+# Configuracion inicial
 
 vER LAS IMAGENES QUE TENEMOS EN DOCKER
 ```
 docker ps
 
 ```
-dependencias 
+
+Dependencias 
 ```
 sudo apt install curl
 sudo apt -y install apt-transport-https
