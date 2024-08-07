@@ -29,6 +29,10 @@ debe aparecer
 
 Lo qu indicaria que ya se tiene instalado docker y seguimos con l ainstalacion
 
+En caso de no tener instalado
+
+[Instalar Docker CMD](https://github.com/ErickLopC/dockerNativoComandos)
+
 
 # Dependencias 
 ```
