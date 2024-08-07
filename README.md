@@ -23,6 +23,13 @@ docker ps
 
 ```
 
+debe aparecer 
+
+**CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES**
+
+Lo qu indicaria que ya se tiene instalado docker y seguimos con l ainstalacion
+
+
 # Dependencias 
 ```
 sudo apt install curl
