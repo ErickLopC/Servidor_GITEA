@@ -146,6 +146,8 @@ apt install mariadb-server nginx git
 ```
 activar servicio de MariaDB 
 
+**A PARTIR DE ESTA PARTE SE PUEDE SEGUIR CON LA CONFIGURACION DE LA BASE DE DATOS UNA VEZ YA SE TENGA CONFIGURADA LA BASE DE DATOS EXTERNA CON EL ALMACENAMIENTO EXTERNO**
+
 ejecutar el servicio de bria db al ajecer el boot el servidor
 ```
 systemctl enable mariadb
