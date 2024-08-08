@@ -15,6 +15,20 @@
 9. [](#)
 10. [](#)
 
+
+Para la instlacion se requienen conocer comandos de ubuntu, debian o similares para montar  configurar sd y algunas otras configuraciones para ello visitar para algunos comandos de ubuntu  
+
+https://github.com/ErickLopC/comandos-Ubuntu  
+
+para cambiar el arranbque automtico de usb externa 
+
+https://github.com/ErickLopC/cambio-fomat-usb
+
+ademas de para tener una base de datos montada en una memoria externa visitar 
+
+
+https://github.com/ErickLopC/baseDatosExterna
+
 # Configuracion inicial
 
 vER LAS IMAGENES QUE TENEMOS EN DOCKER
