@@ -163,6 +163,12 @@ Al pedir contraseña precionar enter
 Al pedir el modo socket precionar **N**
 
 Precionar enter  -> oiNGRESAR NUEVA CONTRASE;A
+
+enter 
+
+enter
+
+enter  ...
 ```
 -
 ```
