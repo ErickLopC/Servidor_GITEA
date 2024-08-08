@@ -29,6 +29,11 @@ ademas de para tener una base de datos montada en una memoria externa visitar
 
 https://github.com/ErickLopC/baseDatosExterna
 
+
+
+apara hacer la instalacion completa de Gitea en una memoria externa realizamos los siguientes pasos de esta documentacion **Configuracion inicial**
+  despues la de **base de datosd en una memoria extena** para despues seguir con **Base de datos** con esta se acaba de configurar la base de datos externa finalmente para acabar de configurar gutea relizamos lo de **Instalacion**  una vez termoinado pasamos con **Funcionamiento** .
+
 # Configuracion inicial
 
 vER LAS IMAGENES QUE TENEMOS EN DOCKER
