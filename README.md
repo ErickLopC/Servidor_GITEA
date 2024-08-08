@@ -225,6 +225,10 @@ ls -la /opt/
 
 ```
 
+Debe de aparecer que se agrego la siguiente linea 
+
+**drwxr-xr-x  2 git  git  4096 Aug  8 07:30 git**
+
 ---
 
 ---
