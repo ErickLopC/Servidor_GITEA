@@ -12,7 +12,7 @@
 6. [References](#References)
 7. [Solucion Problemas](#Sol-problem)
 8. [Desinstalar GITEA](https://github.com/ErickLopC/Desins-Gitea)
-9. [](#)
+9. [Mudar Base de datos](#Move-DB)
 10. [](#)
 
 
@@ -550,3 +550,41 @@ instlatr mediante portainer
 https://www.youtube.com/watch?v=oklkcFY8sHE
 
 https://www.youtube.com/watch?v=oklkcFY8sHE
+
+# Move DB
+
+Solo se necesita mover la base en la meroria que se tiene a la que se desea
+
+
+**Mover los Datos de MariaDB:**
+
+
+Mueve los datos existentes de la ubicación predeterminada a la nueva ubicación en la memoria externa:
+```
+sudo mv /var/lib/mysql /mnt/external_drive/mariadb_data
+
+```
+
+```
+-
+```
+
+```
+-
+```
+
+
+```
+-
+```
+
+
+```
+-
+```
+
+
+```
+-
+```
+
