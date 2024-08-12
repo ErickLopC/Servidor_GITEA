@@ -462,6 +462,7 @@ systemctl status gitea
 
 # Funcionamiento
 
+cHECAR BIEN LA CONFIGURARAU=ION Y LOS PARTAMETROS QUE SE ENCUENTRA REMARCADOS EN NEGRITAS
 ```
 http://IP-0-Dominio-gitea
 ```
