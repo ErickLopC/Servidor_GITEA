@@ -13,7 +13,9 @@
 7. [Solucion Problemas](#Sol-problem)
 8. [Desinstalar GITEA](https://github.com/ErickLopC/Desins-Gitea)
 9. [Mudar Base de datos](#Move-DB)
-10. [](#)
+10. [FUTURES](#FUTURES)
+11. [](#)
+12. [](#)
 
 
 Para la instlacion se requienen conocer comandos de ubuntu, debian o similares para montar  configurar sd y algunas otras configuraciones para ello visitar para algunos comandos de ubuntu  
@@ -574,6 +576,9 @@ sudo mv /var/lib/mysql /mnt/external_drive/mariadb_data
 -
 ```
 
+# FUTURES
+
+Instlar gitlab y hacer una tabla comparativa entre caracteristicas que odrece este y el tro, asi mo donde es mas recomentble instlar, base de datos y consas relativas.
 
 ```
 -
