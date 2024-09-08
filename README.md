@@ -129,13 +129,37 @@ services:
 docker-compose up -d
 ```
 
+
+
+Por si hay detalles con la instalacion del docker compose se realiza lo siguine (se instala nuevamente
+
+**Descarga la versión de docker-compose**
+ 
+Puedes descargar la última versión de docker-compose usando el siguiente comando:
 ```
--
-```
+VERSION=$(curl --silent "https://api.github.com/repos/docker/compose/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")')
+sudo curl -L "https://github.com/docker/compose/releases/download/${VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 ```
--
+**Haz ejecutable el binario descargado**
+
+Después de descargar docker-compose, necesitas darle permisos de ejecución:
+
 ```
+sudo chmod +x /usr/local/bin/docker-compose
+
+```
+
+ **Verifica la instalación**
+ 
+Para confirmar que docker-compose se ha instalado correctamente, verifica la versión:
+
+```
+docker-compose --version
+
+```
+
+y regreamos a ejecutar el; comando anterior para acbar de configurar, una vez ya configurado el composer
 
 # Base de datos
 CUENTA ROOT 
