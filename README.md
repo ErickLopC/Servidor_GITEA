@@ -189,7 +189,7 @@ systemctl enable mariadb
 ```
 
 ```
-mysql_secure_installation
+sudo mysql_secure_installation
 ```
 
 configuracion 
@@ -212,7 +212,7 @@ reconseña
 
 ERICKmendoza2000
 ```
-mysql -u root -p
+sudo mysql -u root -p
 
 ```
 Entramos al servidor mariaDB
