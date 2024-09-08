@@ -617,21 +617,80 @@ sudo mv /var/lib/mysql /mnt/external_drive/mariadb_data
 -
 ```
 
+---------
+
+-------------
+
+----------------
+
+# PASO TOTAL DE LOS REPOSITORIOS Y ARCHIVOS A LA MEMORIA EXTERNA 
+
+SON DOS RIRECTORIOS A CONFIGURAR 
+
+**Detén el servidor Gitea:**
+
+Antes de realizar cambios, es importante detener el servicio Gitea para evitar problemas. Usa el siguiente comando:
+
+```
+sudo systemctl stop gitea
+
+```
+
+**Copia los archivos de Gitea al nuevo workpath**
+
+Mueve o copia los archivos de Gitea a la nueva ubicación en el almacenamiento externo. Por ejemplo:
+
+```
+sudo rsync -av /var/lib/gitea/ /mnt/miunidad/gitea/
+
+```
+EN MI CASO SERIA 
+
+```
+sudo mv /var/lib/gitea/ /mnt/sda1/gitea/
+
+```
+
+Estro significa 1qu etodo lo que se tenga en el archivo de **/var/lib/gitea/** que se encuentra en la rasberry ahora se alojara en **/mnt/sda1/gitea/** que pertenece a la meorya externa.
+
+**CAMBIAR** LO SIGUEINTE **/var/lib** POR **/mnt/sda1/**
+en la Primera direcion es en 
+
+```
+sudo nano /etc/gitea/app.ini
+
+```
+(al parecer en este a todas direciones se cambian )
+AHORA A DARLE PERMISOS 
+
+```
+sudo chown -R git:git /mnt/miunidad/gitea
+sudo chmod -R 755 /mnt/miunidad/gitea
+
+```
+ en esta otra parte hay una direcion a cambiar
+```
+sudo nano /etc/gitea/app.ini
+
+```
+ se le da permisos
+```
+sudo chown -R git:git /mnt/external_drive/repositories
+
+```
+se reinicia el sistema 
+```
+sudo systemctl restart gitea
+
+```
+ se checa nuevbamente , el servicio ya deberia estar levantado
+
+
+
+
 # FUTURES
 
 Instlar gitlab y hacer una tabla comparativa entre caracteristicas que odrece este y el tro, asi mo donde es mas recomentble instlar, base de datos y consas relativas.
 
-```
--
-```
 
-
-```
--
-```
-
-
-```
--
-```
 
