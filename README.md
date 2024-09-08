@@ -656,20 +656,32 @@ Estro significa 1qu etodo lo que se tenga en el archivo de **/var/lib/gitea/** q
 **CAMBIAR** LO SIGUEINTE **/var/lib** POR **/mnt/sda1/**
 
 2--  **cambiar**  esto **/mnt/sda1/** por **/srv/dev-disk-by-uuid-9ffedf72-d861-4e55-9fad-66a10af08eeb/gitea**
-en la Primera direcion es en 
+
+En la **Primera direcion** es en 
 
 ```
 sudo nano /etc/gitea/app.ini
 
 ```
-(al parecer en este a todas direciones se cambian )
+(al parecer en este a todas direciones se cambian son 6  )
+
 AHORA A DARLE PERMISOS 
 
 ```
 sudo chown -R git:git /mnt/miunidad/gitea
 sudo chmod -R 755 /mnt/miunidad/gitea
+```
+
+para accedesde 2 OMV
+```
+sudo chown -R git:git /srv/dev-disk-by-uuid-9ffedf72-d861-4e55-9fad-66a10af08eeb/gitea
 
 ```
+```
+sudo chmod -R 755 /srv/dev-disk-by-uuid-9ffedf72-d861-4e55-9fad-66a10af08eeb/gitea
+
+```
+
  en esta otra parte hay una direcion a cambiar
 ```
 sudo nano /etc/gitea/app.ini
