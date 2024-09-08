@@ -273,7 +273,7 @@ Debe de aparecer que se agrego la siguiente linea
 wget -O gitea https://dl.gitea.io/gitea/1.15.4/gitea-1.15.4-linux-arm-6
 
 ```
-
+Mas reciente(el que tengo instalado)
 ```
 wget -O gitea  https://dl.gitea.com/gitea/1.22.0/gitea-1.22.0-linux-arm-6
 
