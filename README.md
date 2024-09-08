@@ -250,7 +250,7 @@ exit;
 # Instalacion
 
 ```
-adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --disabled-password --home /opt/git git
+sudo adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --disabled-password --home /opt/git git
 ```
 
 Verificar el direcciorio creado de git con duseñpo git y grupo git 
