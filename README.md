@@ -503,7 +503,7 @@ Host **127.0.0.1:3306**
 
 Username   **gitea**
 
-Password **Contraseña de la base D datos**
+Password **Contraseña de la base D datos** -> ERICK_power_2000@
 
 Database Name  **gitea**
 
@@ -532,11 +532,11 @@ Optional Settings  **Administrator Account Settings**
 
 EJEMPLO
 
-Administrator Username **DIMAF_**
+Administrator Username **DIMAF**
 
 Password  **Elc2000@1230ABZ**
 
-Confirm Password **ec667709@gmail.com**
+Confirm Password **ERICK_POWER@1**
 
 ```
 --------------
@@ -553,15 +553,29 @@ CaMmbios de ip de servidor
 ```
 -
 ```
+
+si al momento de estar registranmdo la base de datos no nos deja agregar nuiestros datops de la base que tenemos relizr lo siguiente 
+
+**Verificar el tipo de permisos que teiene el asiguiente archivo**
 ```
--
-```
-
-
-
+sudo ls -l /etc/gitea/app.ini
 
 ```
--
+
+nos deveria aparecer algo como lo siguiente
+
+**-rw-r----- 1 git git 12345 Sep  8 12:34 /etc/gitea/app.ini**
+
+en caso de que no suceda asi es preferible colocar el siguiente comando
+
+```
+sudo chown git:git /etc/gitea/app.ini
+
+```
+
+```
+sudo chmod 600 /etc/gitea/app.ini
+
 ```
 
 
