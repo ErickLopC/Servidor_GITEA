@@ -654,6 +654,8 @@ sudo mv /var/lib/gitea/ /mnt/sda1/gitea/
 Estro significa 1qu etodo lo que se tenga en el archivo de **/var/lib/gitea/** que se encuentra en la rasberry ahora se alojara en **/mnt/sda1/gitea/** que pertenece a la meorya externa.
 
 **CAMBIAR** LO SIGUEINTE **/var/lib** POR **/mnt/sda1/**
+
+2--  **cambiar**  esto **/mnt/sda1/** por **/srv/dev-disk-by-uuid-9ffedf72-d861-4e55-9fad-66a10af08eeb/gitea**
 en la Primera direcion es en 
 
 ```
