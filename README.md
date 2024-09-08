@@ -179,6 +179,9 @@ activar servicio de MariaDB
 
 **A PARTIR DE ESTA PARTE SE PUEDE SEGUIR CON LA CONFIGURACION DE LA BASE DE DATOS UNA VEZ YA SE TENGA CONFIGURADA LA BASE DE DATOS EXTERNA CON EL ALMACENAMIENTO EXTERNO**
 
+https://github.com/ErickLopC/baseDatosExterna
+
+
 ejecutar el servicio de bria db al ajecer el boot el servidor
 ```
 systemctl enable mariadb
