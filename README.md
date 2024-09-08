@@ -692,6 +692,12 @@ sudo nano /etc/gitea/app.ini
 sudo chown -R git:git /mnt/external_drive/repositories
 
 ```
+- para accedesde 2 OMV
+```
+sudo chown -R git:git /srv/dev-disk-by-uuid-9ffedf72-d861-4e55-9fad-66a10af08eeb/repositories
+
+```
+
 se reinicia el sistema 
 ```
 sudo systemctl restart gitea
