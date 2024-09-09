@@ -684,7 +684,7 @@ sudo chmod -R 755 /srv/dev-disk-by-uuid-9ffedf72-d861-4e55-9fad-66a10af08eeb/git
 
  en esta otra parte hay una direcion a cambiar
 ```
-sudo nano /etc/gitea/app.ini
+sudo nano /etc/systemd/system/gitea.service
 
 ```
  se le da permisos
